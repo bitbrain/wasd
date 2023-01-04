@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://dq2avc11mm5s0"]
+
+[ext_resource type="Script" path="res://addons/wasd/InputController2D.gd" id="1_xto1a"]
+
+[node name="InputController2D" type="Node"]
+script = ExtResource("1_xto1a")

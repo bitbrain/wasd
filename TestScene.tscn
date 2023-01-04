@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=3 uid="uid://bhyeg1adgbpyl"]
+
+[ext_resource type="Texture2D" uid="uid://bxg3xwu7spktc" path="res://icon.svg" id="1_gdv4w"]
+[ext_resource type="PackedScene" uid="uid://dq2avc11mm5s0" path="res://addons/wasd/InputController2D.tscn" id="2_jiv5w"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_x28wd"]
+
+[node name="TestScene" type="Node2D"]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+
+[node name="InputController2D" parent="CharacterBody2D" instance=ExtResource("2_jiv5w")]
+acceleration = 5000.0
+friction = 10.0
+maximum_speed = 500000.0
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
+texture = ExtResource("1_gdv4w")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+shape = SubResource("CircleShape2D_x28wd")
