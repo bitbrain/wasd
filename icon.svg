@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="100mm"
-   height="100mm"
-   viewBox="0 0 100 100"
+   width="50mm"
+   height="50mm"
+   viewBox="0 0 50 50"
    version="1.1"
    id="svg5"
    inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
@@ -25,8 +25,8 @@
      showgrid="false"
      width="100mm"
      inkscape:zoom="1.8116734"
-     inkscape:cx="106.25535"
-     inkscape:cy="190.98365"
+     inkscape:cx="-32.842564"
+     inkscape:cy="77.276622"
      inkscape:window-width="1920"
      inkscape:window-height="1018"
      inkscape:window-x="-6"
@@ -37,9 +37,9 @@
      id="defs2">
     <rect
        x="65.685127"
-       y="88.868113"
+       y="88.868111"
        width="52.437706"
-       height="70.65291"
+       height="70.652908"
        id="rect4733" />
   </defs>
   <g
@@ -49,32 +49,32 @@
      style="display:inline;mix-blend-mode:normal">
     <path
        id="rect846"
-       style="fill:#3e84b7;stroke:#3e84b7;stroke-width:12.5;stroke-linejoin:round;stroke-dashoffset:3779.53"
-       d="m 43.170307,26.643515 h 13.11509 v 13.115089 h -13.11509 z" />
+       style="fill:#3e84b7;stroke:#3e84b7;stroke-width:6.25;stroke-linejoin:round;stroke-dashoffset:3779.53"
+       d="m 21.664657,14.559877 h 6.557545 v 6.557544 h -6.557545 z" />
     <rect
-       style="fill:#3e84b7;fill-opacity:1;stroke:#3e84b7;stroke-width:12.5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:3779.53;stroke-opacity:1"
+       style="fill:#3e84b7;fill-opacity:1;stroke:#3e84b7;stroke-width:6.25;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:3779.53;stroke-opacity:1"
        id="rect846-7"
-       width="13.115089"
-       height="13.115089"
-       x="43.170307"
-       y="55.657017" />
+       width="6.5575447"
+       height="6.5575447"
+       x="21.66466"
+       y="29.066628" />
     <rect
-       style="fill:#ffffff;fill-opacity:1;stroke:#3e84b7;stroke-width:12.5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:3779.53;stroke-opacity:1"
+       style="fill:#ffffff;fill-opacity:1;stroke:#3e84b7;stroke-width:6.25;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:3779.53;stroke-opacity:1"
        id="rect846-2"
-       width="13.115089"
-       height="13.115089"
-       x="14.326693"
-       y="55.657017" />
+       width="6.5575447"
+       height="6.5575447"
+       x="7.2428484"
+       y="29.066628" />
     <rect
-       style="fill:#3e84b7;fill-opacity:1;stroke:#3e84b7;stroke-width:12.5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:3779.53;stroke-opacity:1"
+       style="fill:#3e84b7;fill-opacity:1;stroke:#3e84b7;stroke-width:6.25;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:3779.53;stroke-opacity:1"
        id="rect846-23"
-       width="13.115089"
-       height="13.115089"
-       x="72.013924"
-       y="55.657017" />
+       width="6.5575447"
+       height="6.5575447"
+       x="36.086468"
+       y="29.066628" />
     <g
        aria-label="W"
-       transform="scale(0.90870058,1.1004725)"
+       transform="matrix(0.45435029,0,0,0.55023625,0.07950253,1.2381187)"
        id="text8633"
        style="font-size:28.2222px;line-height:1.25;font-family:'ProLamina 2';-inkscape-font-specification:'ProLamina 2, Normal';letter-spacing:0px;word-spacing:0px;fill:#ffffff;stroke-width:0.709843">
       <path
@@ -83,7 +83,7 @@
     </g>
     <g
        aria-label="S"
-       transform="scale(1.0156728,0.98456904)"
+       transform="matrix(0.5078364,0,0,0.49228452,0.07950253,1.2381187)"
        id="text8633-9"
        style="font-size:28.2222px;line-height:1.25;font-family:'ProLamina 2';-inkscape-font-specification:'ProLamina 2, Normal';letter-spacing:0px;word-spacing:0px;fill:#ffffff;stroke-width:0.503224">
       <path
@@ -92,7 +92,7 @@
     </g>
     <g
        aria-label="D"
-       transform="scale(1.0156728,0.98456904)"
+       transform="matrix(0.5078364,0,0,0.49228452,0.07950253,1.2381187)"
        id="text8633-9-8"
        style="font-size:28.2222px;line-height:1.25;font-family:'ProLamina 2';-inkscape-font-specification:'ProLamina 2, Normal';letter-spacing:0px;word-spacing:0px;fill:#ffffff;stroke-width:0.503224">
       <path
@@ -102,7 +102,8 @@
     <g
        aria-label="A"
        id="text2183"
-       style="font-size:28.2222px;line-height:1.25;font-family:'ProLamina 2';-inkscape-font-specification:'ProLamina 2, Normal';letter-spacing:0px;word-spacing:0px;fill:#ffffff;stroke-width:0.264583">
+       style="font-size:28.2222px;line-height:1.25;font-family:'ProLamina 2';-inkscape-font-specification:'ProLamina 2, Normal';letter-spacing:0px;word-spacing:0px;fill:#ffffff;stroke-width:0.264583"
+       transform="matrix(0.5,0,0,0.5,0.07950253,1.2381187)">
       <path
          d="m 21.766181,61.773591 v -2.645832 h -1.763887 v 2.645832 z m -5.291662,6.173606 v -9.701381 l 1.763887,-1.763888 h 5.291663 l 1.763887,1.763888 v 9.701381 h -3.527775 v -3.527775 h -1.763887 v 3.527775 z"
          id="path2707" />
