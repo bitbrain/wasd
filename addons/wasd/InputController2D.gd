@@ -7,7 +7,7 @@ class_name InputController2D extends Node
 @export var action_up := "ui_up"
 @export var action_down := "ui_down"
 @export var acceleration := 50.0
-@export var friction := 0.5
+@export var friction := 10.0
 @export var maximum_speed := 100.0
 
 var input_vector := Vector2.ZERO
@@ -31,7 +31,7 @@ func _physics_process(delta: float) -> void:
 	if input_vector.length() != 0:
 		look_direction = input_vector.normalized()
 
-	velocity = velocity.move_toward(input_vector * maximum_speed * delta, acceleration * delta)
+	velocity = velocity.move_toward(input_vector * maximum_speed * delta, _get_acceleration(input_vector) * delta)
 	
 	if get_parent() is CharacterBody2D:
 		var parent = get_parent() as CharacterBody2D
@@ -44,6 +44,12 @@ func _physics_process(delta: float) -> void:
 		
 	if velocity.length() != 0:
 		move_direction = velocity.normalized()
+		
+func _get_acceleration(input_vector:Vector2) -> float:
+	if input_vector == Vector2.ZERO:
+		return friction
+	else:
+		return acceleration
 
 func _get_configuration_warnings() -> PackedStringArray:
 	var warnings = []

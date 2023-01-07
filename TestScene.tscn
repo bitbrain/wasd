@@ -10,9 +10,9 @@
 [node name="CharacterBody2D" type="CharacterBody2D" parent="."]
 
 [node name="InputController2D" parent="CharacterBody2D" instance=ExtResource("2_jiv5w")]
-acceleration = 5000.0
-friction = 10.0
-maximum_speed = 500000.0
+acceleration = 500.0
+friction = 100.0
+maximum_speed = 5000.0
 
 [node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
 texture = ExtResource("1_gdv4w")
